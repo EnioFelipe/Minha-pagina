@@ -14,12 +14,16 @@ html, body{
     width: 100vw;
 }
 
-body{
+/*body{
     background-image: url(imagens-portifolio/fundo-preto-estilo-3d.avif);
     background-position: top center;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
+}*/
+
+body{
+    background-color: black;
 }
 
 main{
