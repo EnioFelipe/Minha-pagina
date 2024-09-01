@@ -5,29 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tela home</title>
     <style>
-        *{
-    margin: 0px;
-    padding: 0px;
-}
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
 
-body{
-    height: 100vh;
-    width: 100vw;
-    background-color: rgba(18, 18, 65, 0.966);
-}
+        body {
+            height: 100vh;
+            width: 100vw;
+            background-color: rgba(18, 18, 65, 0.966);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
 
-main{
-    height: 100vh;
-    width: 100vw;
-    background-image: url(imagens-portifolio/reducer\ \(1\).jpg);
-    background-position: center;
-    
-    
-}
+        main {
+            height: 100vh;
+            width: 100vw;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        h1 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        #login-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+
+        #login-container img {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        #login-container a {
+            padding: 10px 20px;
+            cursor: pointer;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            transition: background-color 0.3s;
+        }
+
+        #login-container a:hover {
+            background-color: #0056b3;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            padding: 15px 20px;
+        }
+
     </style>
 </head>
 <body>
     <main>
+        <div id="login-container">
+            <img src="imagens-portifolio/minha_foto.jpg" alt="">
+            <h1>Sou o Enio Felipe e esse é o meu portifólio</h1>
+            <p>Seja Bem-vindo(a)!</p>
+            <a href="resumo.html" target="tela">Acessar</a>
+        </div>
     </main>
 </body>
 </html>

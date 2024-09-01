@@ -14,16 +14,22 @@ html, body{
     width: 100vw;
 }
 
-/*body{
-    background-image: url(imagens-portifolio/fundo-preto-estilo-3d.avif);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-}*/
 
-body{
+
+.siteandroid{
     background-color: black;
+}
+
+.github{
+    background-color: white;
+}
+
+body {
+    background: rgb(0,212,255);
+    background: radial-gradient(circle, rgba(0,212,255,1) 15%, rgba(9,9,121,1) 55%, rgba(2,0,36,1) 85%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main{
@@ -75,4 +81,5 @@ section#opc img:hover{
     transform: translate(0px, -12px);
     transition: transform 0.7s;
 }
+
 
